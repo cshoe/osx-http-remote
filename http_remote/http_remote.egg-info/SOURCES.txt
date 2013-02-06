@@ -1,5 +1,0 @@
-http_remote.egg-info/PKG-INFO
-http_remote.egg-info/SOURCES.txt
-http_remote.egg-info/dependency_links.txt
-http_remote.egg-info/not-zip-safe
-http_remote.egg-info/top_level.txt
