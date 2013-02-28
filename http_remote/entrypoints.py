@@ -4,8 +4,7 @@ import sys
 from tornado.ioloop import IOLoop
 from tornado.web import Application
 
-#from http_remote.application import handlers
-from application import handlers
+from http_remote.application import handlers
 
 
 def graceful_exit(loop):                                                       
