@@ -40,8 +40,3 @@ def run_server():
 
     loop = IOLoop.instance()
     graceful_exit(loop)
-
-
-
-if __name__ == '__main__':
-    run_server()

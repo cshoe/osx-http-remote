@@ -8,7 +8,7 @@ except ImportError:
 
 packages = []
 
-requires = []
+requires = ['tornado>=2.4.1',]
 
 setup(
     name='http_remote',
@@ -23,6 +23,11 @@ setup(
     install_requires=requires,
     license='',
     zip_safe=False,
+    entry_points={
+        'console_scripts': [
+            'httpmote_start = http_remote.entrypoints:run_server',
+        ],
+    },
     classifiers=(
         'Development Status :: 1 - Planning',
         'Intended Audience :: Developers',
